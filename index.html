@@ -75,6 +75,7 @@
                 </div>
             </div>
         </section>
+        
         <!-- Contact Section-->
         <section class="page-section" id="contact">
             <div class="container">
@@ -86,9 +87,34 @@
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
-                            <!-- Submit Button-->
-                            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeH2dtHK4OjvkMniXYlQHgEDnDpzNwCTwt1QrpZbQxvhfYuEA/viewform?embedded=true" width="1130" height="950" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>        </section>
-        
+                <!-- Contact Section Form-->
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                    <body>
+                        
+                    <div class="container">
+                    <form
+                    action="https://formspree.io/f/xknygodp"
+                    method="POST"   
+                    
+                        <label for="fname">Full Name</label>
+                        <input type="text" id="fname" name="fullname" placeholder="Eg: John Doe">
+                        
+                        <label for="address">Address</label>
+                        <input type="text" id="address" name="address" placeholder="Eg: 123 Main Street">
+                                            
+                        <label for="country">Country</label>
+                        <input type="text" id="country" name="country" placeholder="Eg: Nepal">
+
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email" placeholder="Eg: yourname@example.com">
+
+                        <label for="subject">Message</label>
+                        <textarea id="subject" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+                        <input type="submit" value="Submit">
+                    </form>
+                    </div>
+                </section>
         
         <!-- Footer-->
         <footer class="footer text-center">
